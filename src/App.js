@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import NasaData from "./components/NasaData.js";
+import NasaData from "./src/NasaData.js";
 
 function App() {
   return (
