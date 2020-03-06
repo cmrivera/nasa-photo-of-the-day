@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import NasaCard from "./components/NasaCard.js";
+import NasaCard from "./NasaCard.js";
 import axios from "axios";
 
 function NasaData() {
@@ -18,7 +18,7 @@ function NasaData() {
       });
   }, []);
   return (
-    <div className="image">
+    <div className="container">
       <NasaCard
         key={nasaData.id}
         title={nasaData.title}
